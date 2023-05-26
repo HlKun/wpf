@@ -375,6 +375,7 @@ namespace System.Windows.Input
                 uie3D.RaiseEvent(args, trusted);
             }            
         }
+
         internal bool ExecuteCore(object parameter, IInputElement target, bool userInitiated)
         {
             if (target == null)
